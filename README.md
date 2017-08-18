@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/andrewrothstein/ansible-gcc-toolbox.svg?style=svg)](https://circleci.com/gh/andrewrothstein/ansible-gcc-toolbox)
 andrewrothstein.gcc-toolbox
 =========
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-gcc-toolbox.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-gcc-toolbox)
 
 [GCC](https://gcc.gnu.org/) tools
 
