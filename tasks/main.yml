@@ -10,20 +10,9 @@
       paths:
         - '{{ role_path }}/vars'
 
-- name: install make related OS packages...
+- name: install gcc/make related OS packages...
   become: yes
   become_user: root
-  with_items: '{{ gcc_toolbox_make_os_pkgs }}'
   package:
-    name: '{{ item }}'
-    state: present
-
-- name: install gcc related OS packages...
-  become: yes
-  become_user: root
-  with_items:
-    - '{{ gcc_toolbox_cc_os_pkgs }}'
-    - '{{ gcc_toolbox_addl_os_pkgs }}'
-  package:
-    name: '{{ item }}'
+    name: '{{ gcc_toolbox_cc_os_pkgs +  gcc_toolbox_addl_os_pkgs  + gcc_toolbox_make_os_pkgs }}'
     state: present
