@@ -1,3 +1,14 @@
 ---
 gcc_toolbox_addl_os_pkgs:
-  - "@Development tools"
+  - autoconf
+  - automake
+  - binutils
+  - gcc
+  - gcc-c++
+  - libtool
+  - make
+  - pkgconf
+  - pkgconf-m4
+  - pkgconf-pkg-config
+  - redhat-rpm-config
+  - glibc-devel
