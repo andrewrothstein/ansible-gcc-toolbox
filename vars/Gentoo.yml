@@ -1,0 +1,7 @@
+---
+gcc_toolbox_make_os_pkgs:
+  - sys-devel/make
+  - sys-devel/automake
+  - sys-devel/autoconf
+gcc_toolbox_cc_os_pkgs:
+  - sys-devel/gcc
