@@ -1,6 +1,6 @@
 andrewrothstein.gcc-toolbox
 =========
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-gcc-toolbox.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-gcc-toolbox)
+![Build Status](https://github.com/andrewrothstein/ansible-gcc-toolbox/actions/workflows/build.yml/badge.svg)
 
 [GCC](https://gcc.gnu.org/) tools
 
